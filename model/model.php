@@ -2,13 +2,13 @@
 
 class Model{
 
-// считывает список книг из базы
+// Получение списка всех книг из базы
     public static function getBookList() {
         include_once 'model/booksArray.php';
         return $books;
         }
 
-// находим книгу по названию из базы
+// Получение одной книги по названию
     public static function getBook($title) {
         $allBook = Model::getBookList();
         $i = 0;

@@ -3,8 +3,10 @@
  ?>
  <h2>Список книг</h2>
  <?php
- // сюда передали booksList и в цикле foreach называем каждую bookOne 
- // и начинаем каждую bookOne выдавать в браузер с помощью echo
+ // Конструкция foreach предоставляет простой способ перебора массивов 
+ // На каждой итерации значение текущего элемента присваивается переменной $bookOne
+ // Сюда передали booksList и в цикле foreach называем каждую bookOne 
+ // Каждую bookOne выдавем в браузер с помощью echo
  foreach ($booksList as $bookOne) {
      echo '<article class = "zoom">';
      echo '<h3>';
@@ -22,6 +24,8 @@
  ?>
 
  <?php
+// Вывод содержимого внутреннего буфера 
+// Очистка содержимого буфера
  $content = ob_get_clean();
  include 'view/templates/layout.php';
   ?>

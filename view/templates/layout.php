@@ -24,7 +24,7 @@
 
     </div>
     <footer class="footer">
-        <p>&copy; Year Desing <i class="fa fa-child"></i></p>
+        <p>&copy; Year Design <i class="fa fa-child"></i></p>
     </footer>
     </div> <!--container -->
     
